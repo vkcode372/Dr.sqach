@@ -1,0 +1,1838 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: Inter, sans-serif
+}
+
+.main-container{
+    max-width:1920px;
+    margin: 0 auto;
+}
+.explore-pro-a,
+.shop-bar-a,
+.soap-explore a {
+    text-transform: capitalize;
+    transition: var(--btn-trastion-time)
+}
+
+.all-carousel-cls .owl-nav button.owl-next,
+.explore-pro-a,
+.see-more-prod a,
+.shop-bar-a,
+.soap-explore a {
+    transition: var(--btn-trastion-time)
+}
+
+.banner-img-cls,
+.banner-text,
+.banner-text p,
+.bar-soap-img,
+.bar-soap-text,
+.bar-soap-text p,
+.bar-soap-text span,
+.bar-soaps-items-c,
+.best-seller .rate,
+.company-shiping,
+.heading-text,
+.mid-banner-btn,
+.see-more-prod,
+.shiping-content h4,
+.soap-explore a,
+.star-exploring-p,
+.start-bundles-img,
+.subscibe-btn-div,
+.subscribe-and-save .top-img,
+.subscriber-text h1,
+.top-img img {
+    text-align: center
+}
+
+.banner-text h1,
+.heading-text,
+.second-p,
+.star-exploring-p,
+.trusted-content h4 {
+    letter-spacing: -.06em;
+}
+
+.banner-text h1,
+.heading-text,
+.second-heading,
+.second-p,
+.star-exploring-p,
+.trusted-content h4,
+h2 {
+    font-family: "worker_3dbase";
+}
+
+a {
+    text-decoration: none
+}
+
+img {
+    max-width: 100%
+}
+
+:root {
+    --btn-bg-color: #FF7E36;
+    --btn-trastion-time: .5s;
+    --product-tanstion-time: .5s;
+}
+.top-section {
+    background-image: url("../images/top-bm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.banner-section {
+   
+    padding-bottom: 90px
+}
+
+.banner-text {
+    padding: 50px 0;
+}
+
+.banner-text h2 {
+    font-size: 14px;
+    line-height: 80%;
+    color: #ff7e36;
+    padding-bottom: 10px;
+    font-weight:400;
+}
+
+.banner-text h1,
+.banner-text p {
+    font-weight: 400;
+    color: #5a3714;
+    line-height: 100%
+}
+
+.banner-text h1 {
+    margin: 0 20px;
+    font-size: 40px
+}
+
+.banner-text p {
+    font-size: 12px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.banner-img-cls {
+    margin-bottom: -156px;
+}
+
+.top-right-img {
+    position: absolute;
+    right: 109px;
+    bottom: 100px;
+}
+
+.top-left-img {
+    position: absolute;
+    left: 110px;
+    top: 22px
+}
+
+.Squatch-Tv,
+.all-carousel-cls,
+.banner-img-cls,
+.banner-inner-img,
+.testimonial-section .owl-carousel-wraper {
+    position: relative
+}
+
+.best-seller .owl-nav,
+.life-changeing-sec .owl-nav,
+.top-left-img,
+.top-right-img,
+.trusted-sec-carousel .owl-nav button.owl-next span,
+.trusted-sec-carousel .owl-nav button.owl-prev span {
+    display: none
+}
+
+.explore-pro-a,
+.shop-bar-a {
+    display: inline-block;
+    min-height: 40px;
+    background: var(--btn-bg-color);
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 100%;
+    color: #fff;
+    margin: 0 2px;
+    border: 1px solid #FF7E36;
+    box-shadow: 0 4px 24px rgba(255, 126, 54, .25);
+    max-width: 187px;
+    margin: 6px 0;
+    width: 100%;
+}
+
+.explore-pro-a:hover{
+    background: #fff;
+    color: #ff7e36;
+   
+}
+.shop-bar-a:hover{
+    background: #fff;
+    color:#ff7e36;
+    border: 1px solid #ff7e36;
+    box-shadow: 0 4px 24px rgba(255, 126, 54, .25);
+}
+
+.explore-pro-a {
+    background: unset;
+    color: #ff7e36;
+    border: 1px solid #FF7E36;
+}
+
+.banner-inner-img {
+    padding: 0 15px;
+    display: inline-block
+}
+
+.maker-img {
+    position: absolute;
+    right: 51px;
+    top: -21px;
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.star-exploring-p {
+    font-size: 12px;
+    line-height: 1.2;
+    color: #ff7e36
+}
+
+.bar-shop {
+    margin-top: 50px
+}
+
+.heading-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.7;
+    color: #5a3714;
+    max-width: 240px;
+    margin: 0 auto 10px
+}
+
+
+
+.exploring-shop {
+    padding-top: 60px;
+    padding-bottom: 24px
+}
+
+.bar-soaps-items-c {
+    width: 100%;
+    margin: 0 auto;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0) 51.04%, #f1f1f1 100%);
+    border-radius: 8px;
+    position: relative;
+    min-height: 144px;
+    padding-top: 16px;
+    padding-bottom: 38px;
+}
+
+.bar-soap-img {
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto -78px
+}
+
+.bar-soap-text {
+    margin-top: 33px
+}
+
+.bar-soap-text p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #000;
+    padding: 10px 0
+}
+
+.bar-soap-text span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #000;
+    opacity: .7;
+    display: block;
+    max-width: 223px;
+    margin: 0 auto
+}
+.bar-soaps-itmes{
+    max-width: 225px;
+}
+.soap-explore a {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #ff7e36;
+    display: block;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff7e36;
+    border-radius: 8px
+}
+
+.soap-explore a:hover {
+    background: #ff7e36;
+    color: #fff;
+    border: 1px solid #ff7e36
+}
+
+.all-carousel-cls img,
+.mid-right-side-carousel img {
+    display: unset !important;
+    width: unset !important
+}
+
+.soap-explore {
+    max-width: calc(100% - 96px);
+    padding: 0 auto;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px
+}
+
+.all-carousel-cls .owl-nav button.owl-prev {
+    position: absolute;
+    top: -66px;
+    left: 2px;
+    width: 40px;
+    height: 42px;
+    border: 1px solid #ff7e36;
+    border-radius: 8px
+}
+
+.all-carousel-cls .owl-nav button.owl-next {
+    position: absolute;
+    top: -66px;
+    right: 2px;
+    width: 40px;
+    height: 42px;
+    border: 1px solid #ff7e36;
+    border-radius: 8px
+}
+
+.mid-banner-btn,
+.see-more-prod a {
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px
+}
+
+.all-carousel-cls .owl-nav button.owl-next:hover {
+    background: #ff7e36;
+    color: #fafafa
+}
+
+.all-carousel-cls .owl-nav button.owl-next span,
+.all-carousel-cls .owl-nav button.owl-prev span {
+    font-size: 30px;
+    color: #ff7e36;
+    height: 100%;
+    display: block;
+    line-height: 1.3;
+    transition: var(--btn-trastion-time)
+}
+
+.all-carousel-cls .owl-nav button.owl-next span:hover,
+.all-carousel-cls .owl-nav button.owl-prev span:hover {
+    color: #fff
+}
+
+.all-carousel-cls .owl-nav [class*=owl-]:hover {
+    background: #ff7e36 !important;
+    color: #fff;
+    text-decoration: none
+}
+
+.bar-shop,
+.life-changeing-inner-text {
+    margin-bottom: 22px
+}
+
+.start-exploring {
+    position: relative;
+    padding: 0 30px;
+    overflow: hidden
+}
+
+.all-carousel-cls .owl-stage-outer {
+    /* overflow: unset !important; */
+    width: 1920px;
+}
+
+.Hair-care-top-cls{
+    background: #fafafa;
+
+}
+.box-video .bg-video,
+.box-video .bt-play,
+.start-bundles {
+    background-repeat: no-repeat
+}
+
+.sect-hair-care .exploring-shop {
+    padding-top: 50px;
+}
+.sect-hair-care .owl-carousel-wraper{
+    margin-bottom: 60px;
+}
+
+.deodorant-section {
+    padding-bottom: 26px
+}
+
+.deodorant-section .exploring-shop {
+    padding-top: 40px
+}
+
+.box-video .bt-play,
+.sqatch-diff-tv .box-video .bt-play {
+    content: '';
+    -webkit-backdrop-filter: blur(10px);
+    text-indent: -999em;
+    cursor: pointer;
+    width: 75px;
+    height: 68px
+}
+.sqatch-diff-tv .bg-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.sqatch-diff-tv .bg-video p {
+    position: relative;
+    top: 22%;
+    left: unset;
+    font-weight: 700;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.see-more-prod {
+    margin-top: 60px
+}
+
+.see-more-prod a {
+    padding: 16px 32px;
+    color: #ff7e36;
+    background: #fff;
+    line-height: 1.5;
+    border: 1px solid #ff7e36;
+    text-transform: capitalize;
+}
+
+.see-more-prod a:hover {
+    color: #fff;
+    background: #ff7e36
+}
+
+.middle-line {
+    margin-bottom: 21px;
+    display:block;
+    margin-top: -37px;
+    border-top: 1px solid #ff7e36
+}
+
+.life-changeing-sec .video-container iframe,
+.soap-quiz-img img {
+    width: 100%;
+    height:100%;
+}
+
+.life-changeing-sec {
+    padding: 60px 0 35px 30px
+}
+.life-changeing-sec .video-container{
+    width: 251px;
+    height: 400px;
+}
+
+.life-changeing-inner-text h1 {
+    font-size: 32px;
+    line-height: 1;
+    padding: 3px 0
+}
+.bg-video p {
+    position: absolute;
+    bottom: 16px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 150px;
+    left: 17px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.video-wrap {
+    margin: 0 auto;
+    transition: .3s ease-out
+}
+
+.box-video {
+    position: relative;
+    width: 100%;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px
+}
+
+.box-video .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+
+}
+
+.bg-video::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3
+}
+
+.box-video .bt-play {
+    position: absolute;
+    bottom: -8px;
+    right: -13px;
+    display: inline-block;
+    background-image: url("../images/Play-btn.png");
+    z-index: 10;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
+
+.box-video.open .bg-video {
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: .6s .8s;
+    transition: .6s .8s
+}
+
+.box-video.open .video-container {
+    opacity: 1;
+    -webkit-transition: .6s .8s;
+    transition: .6s .8s
+}
+
+.box-video .bt-play:after {
+    content: '';
+    position: absolute;
+    left: 54%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin: -12px 0 0 -6px;
+    border: solid transparent;
+    border-width: 12px 20px;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out
+}
+
+.start-bundles {
+    background-image: url("../images/Starter-Bundles-bg.png");
+    background-size: 100% 100%;
+    padding-bottom: 30px
+}
+
+.start-bundles-text h1 {
+    color: #fff;
+    line-height: 1.1;
+    font-size: 32px;
+    padding-top: 7px
+}
+
+.start-bundles-text {
+    padding: 51px 0 33px
+}
+
+.third-prac {
+    max-width: 237px;
+    margin: 0 auto
+}
+
+.start-bundles .third-prac p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.7;
+    text-align: center;
+    color: rgba(255, 255, 255, .8);
+    padding: 0 0 15px
+}
+
+.mid-banner-btn:hover,
+.shop-now a:hover,
+.subcribe-btn:hover {
+    color: #ff7e36;
+    background: #fff;
+    box-shadow: 0 4px 24px rgba(255, 126, 54, .25);
+}
+
+.mid-banner-btn {
+    display: block;
+    max-width: 330px;
+    margin: 0 auto;
+    background: var(--btn-bg-color);
+    line-height: 100%;
+    color: #fff;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ff7e36;
+    transition: var(--btn-trastion-time);
+    text-transform: capitalize;
+}
+
+.bottom-quotes,
+.top-quotes {
+    height: 45px;
+    position: absolute
+}
+
+.start-bundles-img {
+    margin-bottom: -104px
+}
+
+.best-seller .owl-carousel-wraper{
+    margin-left: -4px;
+
+}
+
+.bestseller-rating img{
+    width: unset !important;
+}
+.best-seller-section {
+    margin-top: 134px;
+}
+section.best-seller {
+    margin-top: 145px;
+    padding-right: 0
+}
+
+.best-seller-text h1 {
+    font-size: 32px;
+    line-height: 1.1;
+    padding: 5px 0
+}
+.best-seller .owl-carousel-wraper  .owl-stage-outer{
+    width: 1920px;
+}
+
+.rate span,
+.shop-now a {
+    font-size: 14px;
+    line-height: 1
+}
+
+.best-seller .review {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 6px;
+    padding: 5px 0 0;
+    color: #2f2f2f
+}
+
+.bestseller-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px
+}
+
+.product-name {
+    padding: unset !important
+}
+
+.best-seller .rate {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    color: #699349;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.rate span {
+    color: #ff6868;
+    text-decoration: line-through;
+    margin: 0 0 0 5px;
+    font-weight: 400
+}
+
+.shop-now a,
+a.subcribe-btn {
+    background: var(--btn-bg-color);
+    color: #fff;
+    transition: var(--btn-trastion-time);
+    display: inline-block;
+    padding: 16px 32px
+}
+
+.shop-now a {
+   width: 100%;
+    border-radius: 8px;
+    font-weight: 700;
+    border: 1px solid;
+    text-transform: capitalize;
+}
+.shop-now a:hover {
+    border: 1px solid #ff7e36;
+    box-shadow: 0 4px 24px rgb(255 126 54 / 25%);
+}
+
+.best-seller .owl-carousel-wraper .owl-stage-outer .bar-soaps-itmes .bar-soap-img {
+    margin: 0 auto -54px
+}
+
+.best-seller .owl-carousel-wraper .owl-stage-outer .bar-soaps-itmes .bar-soaps-items-c {
+    min-height: unset;
+    padding-bottom: 20px;
+    padding-top: 20px
+}
+
+.best-seller .owl-carousel-wraper .owl-stage-outer .bar-soaps-itmes .bar-soap-text {
+    margin-top: 45px
+}
+
+.subscribe-and-save {
+    background: url("../images/subscribe-bg-img.png") 0 0/100% 100% no-repeat;
+    margin-top: 86px;
+    padding-bottom: 40px
+}
+
+.top-img img {
+    margin-top: -40px
+}
+
+.subsciber-cont {
+    max-width: 767px;
+    margin: 0 auto
+}
+
+.subscriber-text h1 {
+    font-size: 32px;
+    line-height: 1.1
+}
+
+.subscriber-text {
+    max-width: 233px;
+    margin: 0 auto;
+    padding: 20px 0
+}
+
+.inner-section {
+    max-width: 334px;
+    margin: 0 auto
+}
+
+.subscibe-btn-div {
+    max-width: 274px;
+    margin: 0 auto
+}
+
+a.subcribe-btn {
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    border: 1px solid #ff7e36
+}
+
+.company-shiping {
+    padding-top: 60px;
+    margin-bottom: -270px
+}
+
+.shiping-content h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #5a3714
+}
+
+.customer-review,
+.shiping-content p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5
+}
+
+.customer-name,
+.customer-review,
+.shiping-content p {
+    text-align: center;
+    color: #373737;
+    padding: 4px 0;
+}
+
+.shiping-content {
+    padding-top: 12px
+}
+
+.inner-shiping {
+    padding-bottom: 45px
+}
+
+.top-corner-img {
+    position: absolute;
+    top: -29px;
+    left: -25px
+}
+
+.shiping-img {
+    max-width: 224px;
+    position: relative;
+    display: inline-block
+}
+
+.testimonial-section .heading-text span {
+    color: #925b25
+}
+
+.testimonial-section .owl-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+section.testimonial-section {
+    margin-top: 252px
+}
+
+.testimonial-text h1 {
+    font-size: 32px;
+    line-height: 1.1;
+    max-width: 329px;
+    margin: 0 auto;
+    padding: 5px 0
+}
+
+.testimonial-rating {
+    text-align: center;
+    position: relative;
+    padding-top: 12px;
+    margin-top: 15px;
+    margin-bottom: 24px
+}
+
+.top-quotes {
+    left: 1px;
+    top: 6px;
+    width: 53px
+}
+
+.bottom-quotes {
+    right: 0;
+    width: 53px;
+    bottom: 62px
+}
+
+.customer-review {
+    padding-top: 15px;
+    padding-bottom: 12px
+}
+
+.customer-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1
+}
+
+.how-different-content span a,
+.second-p {
+    color: #ff7e36
+}
+
+.testimonial-carousel .owl-item img,
+.trusted-sec-carousel .owl-item img {
+    display: unset;
+    width: unset
+}
+
+.testimonial-carousel .owl-nav button.owl-next,
+.testimonial-carousel .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+    padding: 16px 32px;
+    background: #fff;
+    border: 1px solid #ff7e36;
+    border-radius: 8px;
+    line-height: 1.2;
+}
+.testimonial-carousel .owl-nav button.owl-next:hover,
+.testimonial-carousel .owl-nav button.owl-prev:hover{
+  background:#ff7e36;
+}
+
+.testimonial-carousel .owl-nav button.owl-next span,
+.testimonial-carousel .owl-nav button.owl-prev span {
+    font-size: 30px;
+    color: #ff7e36;
+    display: block;
+    height: 100%
+}
+.testimonial-carousel .owl-nav button.owl-next span:hover,
+.testimonial-carousel .owl-nav button.owl-prev span:hover{
+    color: #fff;
+}
+
+.testimonial-carousel .owl-nav [class*=owl-]:hover {
+    background: unset;
+    color: unset;
+    text-decoration: none
+}
+
+.saop-quiz-sec {
+    background: url("../images/soap-quiz-bg.png") 0 0/100% 100% no-repeat;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2
+}
+
+.soap-quiz-text span,
+.take-quiz {
+    margin: 0 auto;
+    text-align: center
+}
+
+.saop-quiz-sec .mid-banner-btn {
+    max-width: 270px
+}
+
+.second-p {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center
+}
+
+.second-heading {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.1;
+    text-align: center;
+    color: #5a3714
+}
+
+.soap-quiz-text {
+    padding: 45px 0 30px
+}
+
+.soap-quiz-text span {
+    display: block;
+    max-width: 223px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, .8);
+    padding: 18px 0
+}
+
+.take-quiz {
+    background: var(--btn-bg-color);
+    border-radius: 8px;
+    max-width: 274px
+}
+
+.take-quiz a {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+    padding: 16px 32px
+}
+
+.soap-quiz-img {
+    margin: 0 10px;
+    padding-bottom: 15px
+}
+
+.trusted-section {
+    background: #fafafa
+}
+
+.trusted-content {
+    padding-top: 52px;
+    margin-top: -10px
+}
+
+.trusted-content h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    color: #5a3714;
+    padding: 15px 0
+}
+
+.trusted-client-img {
+    display: flex;
+    justify-content: center;
+    gap: 27px
+}
+
+.trusted-carousel-wrapper {
+    max-width: 316px;
+    margin: 0 auto
+}
+
+.how-we-different,
+.sqatch-diff-tv,
+.trusted-brand-img {
+    max-width: 330px;
+    margin: 0 auto
+}
+
+.trusted-sec-img {
+    text-align: center;
+    object-fit: cover
+}
+
+.trusted-sec-carousel .owl-nav .owl-prev {
+    width: 29px;
+    height: 15px;
+    background: url("../images/darkArrowleft.png") no-repeat !important;
+    opacity: .5;
+}
+
+.trusted-sec-carousel .owl-nav .owl-next {
+    width: 29px;
+    height: 15px;
+    background: url("../images/darkArrowright.png") no-repeat !important;
+    opacity: .5;
+}
+
+.trusted-sec-carousel .owl-nav .owl-prev:hover {
+    opacity: 1;
+}
+
+.trusted-sec-carousel .owl-nav .owl-next:hover {
+    opacity: 1;
+}
+
+.trusted-section .owl-nav {
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.trusted-brand-img {
+    text-align: center;
+    padding: 20px 0
+}
+
+.trusted-brand-img p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 80%;
+    text-align: center;
+    color: #000;
+    padding: 10px 0
+}
+
+.trusted-brand-img span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.4;
+    text-align: center;
+    color: rgba(0, 0, 0, .7)
+}
+
+.brand-se-img {
+    padding: 30px
+}
+
+.how-we-different .box-video .bg-video {
+    background-image: url("../images/suatch-differen-img.png")
+}
+
+.how-different-content {
+    padding: 50px 0 0;
+    max-width: 322px;
+    margin: 0 auto
+}
+
+.how-different-content span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #373737;
+    text-align: center;
+    padding: 15px 0 30px 0;
+    display: inline-block;
+}
+
+.sqatch-diff-tv .video-container iframe {
+    width: 100%;
+    min-height: 200px;
+    height: 100%;
+    border-radius: 24px
+}
+
+.sqatch-diff-tv .box-video .bt-play {
+    position: absolute;
+    bottom: unset;
+    top: 50%;
+    right: unset;
+    left: 50%;
+    margin: -30px 0 0 -30px;
+    display: inline-block;
+    background-image: url("../images/playbtn2.png");
+    z-index: 2;
+    transition: .3s ease-out
+}
+
+
+.bar-soaps-itmes {
+    transition: var(--product-tanstion-time)
+}
+
+
+
+@media(max-width:1246px) {
+    .top-right-img {
+        position: absolute;
+        right: 46px;
+        bottom: 135px;
+        width: 150px
+    }
+
+    .top-left-img {
+        position: absolute;
+        left: 25px;
+        top: 22px;
+        width: 200px
+    }
+}
+
+@media(min-width:767px) {
+
+    .top-section {
+        background-image: url("../images/banner-bg-img.webp");
+    }
+
+    .bar-shop .lastactiveitem .bar-soaps-itmes{
+        opacity: .4;
+    }
+     .last-active .bar-soaps-itmes{
+        opacity: .4;
+     }
+    .sect-hair-care .firstactiveitem .bar-soaps-itmes{
+        opacity: .4;
+    }
+    .sect-hair-care .first-active .bar-soaps-itmes{
+        opacity: .4;
+    }
+    .deodorant-section .lastactiveitem .bar-soaps-itmes{
+        opacity: .4;
+    }
+    .bar-shop .owl-carousel-wraper{
+        margin-bottom: 15px;
+    }
+
+   .start-exploring,
+    .testimonial-section .owl-carousel-wraper {
+        position: relative
+    }
+    .bar-soap-text p{
+        font-size: 17px;
+    }
+    .bar-soap-text {
+        margin-top: 60px;
+    }
+
+    .maker-img {
+        right: -60px;
+        top: -103px;
+        width: 170px;
+        height: 170px;
+        object-fit: cover;
+    }
+
+    .banner-text p {
+        font-size: 16px;
+        padding: 8px 0 17px;
+    }
+    .banner-text {
+        padding: 92px 0 25px;
+    }
+
+    .explore-pro-a,
+    .shop-bar-a,
+    .trusted-brand-img span {
+        font-size: 14px
+    }
+
+    .top-left-img,
+    .top-right-img {
+        display: none
+    }
+
+    .all-carousel-cls .owl-nav button.owl-next {
+        right: 82px;
+        top: -74px;
+        width: 48px;
+        height: 48px
+    }
+
+    .all-carousel-cls .owl-nav button.owl-next span,
+    .all-carousel-cls .owl-nav button.owl-prev span {
+        line-height: 1.4
+    }
+
+    .all-carousel-cls .owl-nav button.owl-prev {
+        left: unset;
+        right: 138px;
+        top: -74px;
+        width: 48px;
+        height: 48px
+    }
+  
+    .inner-section {
+        max-width: 80%;
+        margin: 0 auto
+    }
+
+    .company-shiping {
+        display: flex;
+        justify-content: space-between;
+        gap: 45px;
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -330px;
+    }
+
+    .exploring-shop,
+    .flex-div,
+    .soap-quiz-content {
+        align-items: center;
+        display: flex
+    }
+
+    .top-corner-img {
+        left: -18px;
+        width: 72px;
+        height: 72px;
+        object-fit: cover
+    }
+
+    .subscribe-and-save {
+        background: url("../images/subandsavbgimg.png") 0 0/100% 100% no-repeat
+    }
+
+    .testimonial-text {
+        margin-bottom: 21px
+    }
+
+    .best-seller .bar-soap-text,
+    .testimonial-carousel .owl-nav {
+        margin-top: 25px
+    }
+
+    .best-seller .owl-carousel-wraper .owl-stage-outer .bar-soaps-itmes .bar-soap-text {
+        margin-top: 20px;
+    }
+    .best-seller .owl-carousel-wraper .owl-stage-outer{
+       width: unset;
+    }
+    .shop-now{
+        max-width: 320px;
+        margin: 0 auto;
+    }
+
+    .trusted-sec-img {
+        width: 100%;
+        height: 100%
+    }
+
+    .start-bundles {
+        background-image: url("../images/Starter-Bundles-bg-d.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+
+    .sqatch-diff-tv {
+        max-width: 78%
+    }
+
+    .how-we-different {
+        max-width: 90%
+    }
+
+
+    .heading-text,
+    .how-different-content {
+        max-width: unset
+    }
+    .how-different-content{
+        padding-top: 90px;
+    }
+
+    .how-different-content .second-p {
+        padding: 5px 0;
+        font-size: 18px;
+        text-align: center
+    }
+
+    .saop-quiz-sec .second-p {
+        font-size: 18px
+    }
+
+    .star-exploring-p {
+        line-height: 1.5;
+        text-align: left;
+        font-size: 24px
+    }
+
+    .subscriber-text {
+        max-width: unset;
+        padding: 18px 0 0
+    }
+
+    .start-bundles .third-prac p {
+        padding: 6px 0 23px;
+        text-align: left;
+        max-width: 53%;
+        font-size: 14px
+    }
+
+    .heading-text {
+        text-align: left;
+        line-height: 1.2
+    }
+    .exploring-shop {
+        padding-top: 158.49px;
+        padding-bottom: 12px
+    }
+
+    .bar-soaps-itmes.item,
+    .third-prac {
+        max-width: 100%
+    }
+    .box-video .bt-play{
+        bottom: 6px;
+        right: -3px;
+    }
+    .bar-soap-text span {
+        font-size: 13px
+    }
+
+    .soap-quiz-text span {
+        max-width: 268px;
+        font-size: 14px
+    }
+
+    .all-carousel-cls img,
+    .shiping-img
+    {
+        width: 100%;
+    }
+     .shiping-img {
+    max-width: unset;
+   
+}
+    section.testimonial-section {
+        margin-top: 325px;
+    }
+    .all-carousel-cl .owl-stage-outer .owl-stage {
+        padding-left: unset
+    }
+
+    .all-carousel-cls .owl-stage-outer {
+        /* overflow: hidden !important */
+        width: unset;
+    }
+
+    .soap-explore {
+        margin-left: auto;
+        margin-right: 200px
+    }
+
+    .soap-explore a {
+        display: block;
+        padding: 15px;
+        font-size: 14px;
+        height: 48px;
+        width: 140px;
+        border-radius: 8px;
+        color: #ff7e36;
+        width: 160px;
+    }
+
+    .start-exploring {
+        overflow: hidden;
+        margin: 0 auto 22px;
+        padding-left: 100px;
+        padding-right: 22px
+    }
+
+    .sect-hair-care .exploring-shop {
+        flex-direction: row-reverse;
+        padding-top: unset;
+    }
+    .sect-hair-care .owl-carousel-wraper{
+        margin-bottom: unset;
+    }
+    .sect-hair-care {
+      padding: 80px 0;
+      }
+
+    .sect-hair-care .soap-explore {
+        margin-right: auto;
+        margin-left: 200px
+    }
+
+    .sect-hair-care .all-carousel-cls .owl-nav button.owl-prev {
+        left: 81px;
+    }
+
+    .sect-hair-care .all-carousel-cls .owl-nav button.owl-next {
+        left: 138px;
+    }
+
+    .sect-hair-care.start-exploring {
+        padding-left: 22px;
+        padding-right: 100px
+    }
+
+    .hair-sec-heading {
+        margin: 0 4px
+    }
+
+    .sect-hair-care .heading-text {
+        text-align: right
+    }
+
+    .life-changeing-inner-text {
+        display: flex;
+        flex-direction: column
+    }
+
+    .life-changeing-inner-text .star-exploring-p,
+    .testimonial-text .star-exploring-p {
+        text-align: center
+    }
+
+    .box-video .bt-play,
+.sqatch-diff-tv .box-video .bt-play {
+    content: '';
+    -webkit-backdrop-filter: blur(10px);
+    text-indent: -999em;
+    cursor: pointer;
+    width: 75px;
+    height: 68px
+}
+.bg-video p {
+    position: absolute;
+    bottom: 29px;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 176px;
+    left: 36px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+ .Squatch-Tv .owl-stage-outer .video-wrap .box-video .video-container {
+        height: 600px;
+        width: 100%;
+    }
+
+    .Squatch-Tv .owl-stage-outer .video-wrap .box-video .video-container iframe {
+        height: 100%;
+        width: 100%
+    }
+
+    .box-video {
+        height: 100%
+    }
+
+    .life-changeing-sec {
+        padding: 80px 0 66px 100px
+    }
+    .Squatch-Tv .owl-stage-outer .owl-stage{
+        padding-left: unset !important;
+
+    }
+
+    .start-bundles-text {
+        padding: 51px 0 33px;
+        flex: 0 0 50%
+    }
+
+    .start-bundles-img {
+        width: 100%;
+        margin-top: -79px;
+        text-align: right
+    }
+
+    .start-bundles .heading-text {
+        font-size: 60px;
+        text-align: left;
+        padding-top: unset;
+    }
+
+    .middle-banner-left-content {
+        max-width: 79%;
+        margin: 0 auto
+    }
+    .soap-quiz-text .middle-banner-left-content{
+        padding-left: 50px;
+
+    }
+
+    .mid-banner-btn,
+    .saop-quiz-sec .mid-banner-btn {
+        max-width: 160px
+    }
+
+    .mid-banner-btn {
+        padding: 17px 32px;
+        margin: unset
+    }
+
+    .best-seller-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column
+    }
+
+    .best-seller .rate {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        align-items: center
+    }
+
+    .rate span {
+        color: #ff6868;
+        text-decoration: line-through;
+        margin: 0 0 0 5px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1
+    }
+
+    .shop-now a {
+        min-width: 320px
+    }
+
+    .best-seller .owl-carousel-wraper {
+        margin: 18px 0
+    }
+
+    .best-seller .owl-carousel-wraper .owl-stage-outer .bar-soaps-itmes .bar-soap-img,
+    .take-quiz .soap-quiz-text span {
+       max-width: 75%;
+       margin: 0 auto;
+    }
+
+    .best-seller {
+        margin-left: 100px;
+        padding: unset
+    }
+
+    .best-seller .owl-carousel-wraper .bar-soaps-itmes {
+        width: 100%;
+    }
+
+    .bestseller-rating {
+        margin: 0 0 4px
+    }
+    
+    .best-seller .owl-stage {
+        padding-left: 0 !important
+    }
+
+    .best-seller .bar-soap-img {
+        margin: unset;
+        max-width: unset
+    }
+
+    .subscribe-and-save .star-exploring-p {
+        text-align: center;
+        font-size: 24px
+    }
+
+    .subscribe-and-save .heading-text {
+        font-size: 60px
+    }
+
+    .subscribe-and-save .heading-text span {
+        font-size: 40px;
+        display: inline-block;
+        padding-right: 10px
+    }
+
+    .subscibe-btn-div {
+        max-width: 190px
+    }
+
+    .inner-shiping {
+        padding-bottom: 45px;
+        width: 100%;
+        max-width: 305px
+    }
+
+    .shiping-content h4 {
+        font-size: 20px
+    }
+
+    .testimonial-text .heading-text {
+        max-width: 80%;
+        text-align: center
+    }
+
+    .top-quotes {
+        top: -73px;
+        width: 101px;
+        height: 86px
+    }
+
+    .bottom-quotes {
+        bottom: -69px;
+        width: 101px;
+        height: 86px
+    }
+
+    .testimonial-rating {
+        max-width: 376px;
+        padding-top: unset;
+        margin: 0 auto
+    }
+
+    .testimonial-rating .heading-text span {
+        color: #925b25
+    }
+
+    .saop-quiz-sec {
+        background: url("../images/soap-quiz-desktop-bg.webp") 0 0/100% 100% no-repeat;
+        margin-top: 180px
+    }
+
+    .saop-quiz-sec .inner-section {
+        max-width: unset;
+        margin: unset;
+        flex: 0 0 40%
+    }
+
+    .soap-quiz-img {
+        margin: -80px 0;
+        flex: 0 0 60%
+    }
+
+    .saop-quiz-sec .second-p,
+    .second-heading {
+        text-align: left
+    }
+
+    .soap-quiz-text span {
+        text-align: left;
+        margin: unset
+    }
+
+    .take-quiz {
+        max-width: 274px;
+        margin: unset
+    }
+
+    .trusted-carousel-wrapper {
+        max-width: 1118px;
+        margin: 0 auto
+    }
+
+    .trusted-content {
+        margin-top: -10px;
+        padding: 150px 0 10px
+    }
+
+    .trusted-content h4 {
+        font-size: 32px
+    }
+
+    .brand-se-img {
+        display: flex;
+        max-width: 70%;
+        margin: 0 auto;
+        padding: 60px 0 70px;
+    }
+
+    .trusted-brand-img p {
+        font-size: 20px;
+        padding: 16px
+    }
+
+    .how-different-content .second-heading {
+        text-align: center;
+        font-size: 32px
+    }
+
+    .how-different-content .sqatch-diff-tv .box-video.open .video-container {
+        max-height: 548px;
+        height: 100%
+    }
+
+    .sqatch-diff-tv .video-container iframe {
+        height: 100%;
+        min-height: 548px
+    }
+
+    .how-different-content span {
+        display: block;
+        max-width: 28%;
+        margin: 0 auto;
+        font-size: 14px
+    }
+    .how-different-content span a{
+        font-weight: 600;
+    }
+  
+    .life-changeing-sec .owl-carousel-wraper {
+        margin-bottom: 40px
+    }
+    .see-more-prod {
+        margin-top: 80px;
+    }
+    .middle-line {
+        margin-top: -58px
+    }
+
+    .bar-soaps-items-c {
+        padding-top: 30px;
+        padding-bottom: 40px
+    }
+
+    .bar-soap-img {
+        margin-bottom: -93px
+    }
+    .sqatch-diff-tv .bg-video p {
+        top: 10%;
+       font-size: 14px;
+    }
+}
+
+@media(min-width:821px) {
+
+    .top-left-img,
+    .top-right-img {
+        display: block
+    }
+
+    .banner-text h1 {
+        font-size: 60px
+    }
+
+    .banner-text h2 {
+        font-size: 24px
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+
+    .life-changeing-sec .owl-carousel-wraper {
+        margin-bottom: 0
+    }
+
+    .best-seller {
+        margin-top: 45px
+    }
+    .start-exploring,
+    .sect-hair-care.start-exploring{
+        padding: 0 50px;
+    }
+    .soap-explore{
+        margin-right: 123px;
+    }
+    .sect-hair-care .soap-explore {
+        margin-left: 123px;
+    }
+    .all-carousel-cls .owl-nav button.owl-prev {
+        right: 60px;
+    }
+    .all-carousel-cls .owl-nav button.owl-next {
+        right: 4px;
+    }
+    .sect-hair-care .all-carousel-cls .owl-nav button.owl-prev {
+        left: 5px;
+    }
+    .sect-hair-care .all-carousel-cls .owl-nav button.owl-next {
+        left: 65px;
+    }
+    .Hair-care-top-cls {
+        padding: 30px 0;
+    }
+    .Squatch-Tv .owl-stage-outer .video-wrap .box-video .video-container { height: 500px; }
+    .best-seller-section {
+        margin-top: 55px;
+    }
+    .best-seller .owl-carousel-wraper  .owl-stage-outer {
+        overflow: hidden;
+    }
+    .best-seller {
+        margin-left: unset;
+    }
+    .subscribe-and-save .heading-text { font-size: 45px; }
+    .top-quotes { top: -64px; width: 78px; height: 78px; left: -14px; }
+    .bottom-quotes { bottom: 27px; width: 78px; height: 78px; }
+    .middle-banner-left-content { max-width: 68%; }
+    .soap-quiz-text .middle-banner-left-content {
+        padding-left: unset
+    }
+    .trusted-carousel-wrapper { max-width: 694px; }
+    .start-bundles .third-prac p { max-width: 78%; }
+    .saop-quiz-sec { margin-top: 52px; }
+    .trusted-content {padding: 58px 0 10px; }
+    .brand-se-img { max-width: 85%; flex-direction: column; }
+    .how-different-content { padding-top: 42px; }
+    .how-different-content span { max-width: 63%; }
+    .see-more-prod { margin-bottom: 26px; }
+    .life-changeing-sec{ margin-top: 45px; }
+ }
+
+@media(max-width:950px) {
+    .top-left-img,
+    .top-right-img {
+        display: none
+    }
+}
